@@ -6,13 +6,13 @@ provider "aws" {
 
     region = "${var.aws_region}"
 }
-module "s3" {
+#module "s3" {
 
-    source = "<path-to-S3-folder>"
+    #source = "<path-to-S3-folder>"
 
-    bucket = "${var.bucket_name}"
+    #bucket = "${var.bucket_name}"
 
-}
+#}
 resource "aws_s3_bucket" "create-s3-bucket" {
   
    acl = "${var.acl}"
