@@ -22,6 +22,7 @@ resource "aws_s3_bucket" "create-s3-bucket" {
     id = "archive"
 
     enabled = true
+  }
 
     transition {
 
