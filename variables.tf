@@ -10,9 +10,9 @@ variable "aws_region" {
     default     = "us-east-2"
 }
 
-variable "bucket_name"{
-    default = "my-s3-bucket09"
-}
+#variable "bucket_name"{
+ #   default = "my-s3-bucket09"
+#}
 
 variable "tags" {
     default     = {
