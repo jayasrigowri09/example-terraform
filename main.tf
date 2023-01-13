@@ -16,7 +16,7 @@ provider "aws" {
 resource "aws_s3_bucket" "my-s3-bucket" {
   
    acl = var.acl
-   
+
     versioning {
 
     enabled = var.versioning
